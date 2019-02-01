@@ -1,0 +1,134 @@
+body{
+	background: url(images/.png) repeat center center ;
+	
+	
+}
+.top{
+	width: 100%;
+	height: 30px;
+	background-color: #333333;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	padding-top: 5px;
+	position: fixed;
+}
+
+.head{display: block;width: 1000px;height: 80px;margin: 0 auto;
+}
+
+
+.menu{
+	
+}
+.menu ul{display: block;float: right;
+
+}
+.menu li{display: inline-block;margin-left: 10px;margin-top: 50px;
+}
+.menu a{display: block;padding: 5px 10px 5px 10px;color: #fff;background-color: #000;font-size: 12px;
+	
+}
+.menu a:hover{
+	background-color: #ff0909;
+
+}
+.box{
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+
+
+}
+.box ul{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	
+}
+.box img:hover{
+	transition: 0.3s;
+	opacity: 0.8;
+
+}
+.box li{
+	display: inline-block;
+	width:320px;
+	height: 380px;
+	align-content: center;
+	background-color: #fff;
+	box-shadow: 1px 2px 5px 2px rgba(0,0,0,0.2);
+	
+}
+.box li:hover{
+	transition: 0.1s;
+	border: 5px solid #ff0909;
+}
+.box p{
+	text-align: justify;
+	padding: 10px 10px;
+}
+.box a{
+	display: block;
+}
+
+.box button[type="text"]{
+	background-color: #fff;
+	border: 1px solid #999;
+	color: #999;
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.box button[type="text"]:hover{
+	background-color: #999;
+	color: #fff;
+	
+}
+
+.event{
+	width: 1000px;
+	margin: 0 auto;
+}
+.event h1{
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 5px solid #ff0909;
+	width: 270px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.event p{
+	text-align:center;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+
+}
+.w3-modal-content {
+	width: 500px;
+}
+	
+
+
+
+@media only screen and (max-width: 768px){ 
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
